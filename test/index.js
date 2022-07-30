@@ -1,5 +1,5 @@
 const { Client } = require('../src/class/Client.js');
-const client = new Client('OTk3NTg3MDAyODA1NDY5MjE1.GMiQeN.djjZ9uL8qbcym7c0cDE5SpEuHVi9cTS6jStEzg');
+const client = new Client('OTk3NTg3MDAyODA1NDY5MjE1.GDpThE.GQGsIS3ABfvJZEspoy9bA78MSDxKiQ-0YyVlNk');
 client.login();
 
 client.on("connexion", async (bot) => {

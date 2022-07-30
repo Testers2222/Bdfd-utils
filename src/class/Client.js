@@ -33,6 +33,7 @@ class Client extends EventEmitter {
 
     this.bot.login(this.token)
       .then(async () => {
+        
         this.emit('connexion', this.bot);
       })
       .catch(async (e) => {
